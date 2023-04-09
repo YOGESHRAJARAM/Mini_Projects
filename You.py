@@ -18,4 +18,6 @@ if choise_ == "Y":
     print(".....sucessfully downloaded.....")
 else:
     print(".....thankyou.....")
+    print("version1")
+    print("version3")
     
