@@ -44,6 +44,7 @@ elif k == "/":
         print("the answer is :",devi)
 else:
     print("thank you")
+    print("versaion2")
 
     
     
