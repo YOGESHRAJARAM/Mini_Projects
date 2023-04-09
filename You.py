@@ -19,4 +19,8 @@ if choise_ == "Y":
 else:
     print(".....thankyou.....")
     print("version1")
+<<<<<<< HEAD
+=======
+    print("version3")
+>>>>>>> 6d6858040b44aa97eb51a5308ec37dc7e0c97e8f
     
