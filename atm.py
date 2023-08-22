@@ -14,10 +14,11 @@ def main():
       else:
           print("invalid card")
       
-          
+    
 
     else:
       print("please enter valide number you gives only "+str(card_number)+" number")
+      main()
 
 def validate_count(a):
      global card_number
@@ -93,23 +94,15 @@ def totalofall():
          resultlist=list(result)
         
          addresult= str(resultlist[0])+str(resultlist[1])
-         firstdegit=int(addresult)-int(resultlist[2])
+         firstdegit= 10 - int(resultlist[2])
          return firstdegit
     else:
         
           resultlist=list(result)
-          firstdegit=int(resultlist[0])-int(resultlist[1])
+          firstdegit=10 - int(resultlist[1])
           return firstdegit
     
             
-            
-   
-   
-    
-   
-
-
-
 
 main()
     
